@@ -3,4 +3,8 @@ class GreetingController < ApplicationController
 		@greeting = Greeting.order("RANDOM()").first
 	end
 
+	def new
+		@greeting = Greeting.new
+	end
+
 end
