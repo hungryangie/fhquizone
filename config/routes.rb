@@ -55,4 +55,5 @@ Fhquizone::Application.routes.draw do
   #   end
 
   root 'greeting#index'
+
 end
